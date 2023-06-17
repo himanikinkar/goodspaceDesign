@@ -1,0 +1,10 @@
+/* .app__aboutus{
+    background-color: aqua;
+} */
+.g_letter{
+   filter:blur(2px);
+   /* width: 100%;
+   height: 40%;  */
+   width: 600px;
+   height: 400px;
+} 

@@ -4,13 +4,17 @@
 
 .app__header-h1 {
     font-family: var(--font-base);
-    color: var(--color-golden);
+    color: var(--color-gray);
     letter-spacing: 0.01em;
+    padding-bottom: 0px;
     text-transform: uppercase;
     line-height: 117px;
     font-size: 80px;
 }
-
+.p__opensans { 
+  /* font-family: var(--font-base); */
+  font-size: 20px;
+}
 .app__header-img img {
     width: 100%;
 }

@@ -2,6 +2,7 @@ import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
 import gs1 from '../assets/gs1.png';
+import gslogo from '../assets/gslogo.png'
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
@@ -28,6 +29,7 @@ export default {
   chef,
   G,
   gs1,
+  gslogo,
   gallery01,
   gallery02,
   gallery03,
