@@ -4,7 +4,7 @@ import './AboutUs.css';
 import { images} from '../../constants';
 
 const AboutUs = () => (
-  <div className="app__aboutus app__bg flex__center section__padding" id="about">
+  <div className="app__aboutus flex__center section__padding" id="about">
     <div className="app_aboutus-overlay flex__center">
       <img src={images.gslogo} alt="g letter" className="g_letter"/>
 

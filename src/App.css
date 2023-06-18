@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .app__gs1 {
   background: url('./assets/gs1.png');
   background-position: center;
@@ -15,12 +14,17 @@
   background-repeat: repeat;
   background-attachment: fixed;
 }
-
+.app__bg {
+  background: url('./assets/service.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 .app__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
 }
 
@@ -96,7 +100,7 @@
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .spoon__img {
