@@ -16,23 +16,23 @@ const SpecialMenu = () => (
         <img src={images.ext} />
       </div>
       <div className="app__box overlay">
-        <div className="text">Details</div>
+        <div className="text">Exterior</div>
       </div>
     </div>
     <div className="app__box">
       <div className="imgbox">
-        <img src={images.ext} />
+        <img src={images.int} />
       </div>
       <div className="app__box overlay">
-        <div className="text">Details</div>
+        <div className="text">Interior</div>
       </div>
     </div>
     <div className="app__box">
       <div className="imgbox">
-        <img src={images.ext} />
+        <img src={images.dplan} />
       </div>
       <div className="app__box overlay">
-        <div className="text">Details</div>
+        <div className="text">3-D Planning</div>
       </div>
     </div>
     </div>

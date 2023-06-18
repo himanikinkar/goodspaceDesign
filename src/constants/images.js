@@ -3,12 +3,15 @@ import chef from '../assets/chef.png';
 import G from '../assets/G.png';
 import gs1 from '../assets/gs1.png';
 import ext from '../assets/exterior.png'
+import int from '../assets/int.jpg'
+import dplan from '../assets/3dplan.png'
+import wbg from '../assets/wbg.jpeg'
 import gslogo from '../assets/gslogo.png'
 import service from '../assets/service.png'
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
+import gallery01 from '../assets/gallery01.jpg';
+import gallery02 from '../assets/gallery02.jpg';
+import gallery03 from '../assets/gallery03.jpg';
+import gallery04 from '../assets/gallery04.jpg';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
@@ -32,6 +35,9 @@ export default {
   G,
   gs1,
   ext,
+  int,
+  dplan,
+  wbg,
   gslogo,
   service,
   gallery01,

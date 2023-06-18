@@ -74,3 +74,13 @@
     transform: scale(1);
     opacity: 3;
   }
+  .text {
+    color: white;
+    font-size: 40px;
+    font-family: font-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
