@@ -1,26 +1,28 @@
 .app__gallery {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; 
+    flex-direction: row;  */
 
-    padding: 4rem 0 4rem 6rem;
+    padding: 0 0 0 6rem;
 }
 
 .app__gallery-content {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: column;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-start; 
+    flex-direction: column; */
     min-width: 500px;
     padding-right: 2rem;
 }
-.app__gallery-content button{
+.app__gallery-content button {
     margin-top: 1rem;
 }
-.app__gallery-images{
+.app__gallery-images {
     flex: 1;
     display: flex;
     flex-direction: row;
-    max-width: 50%;
+    max-width: 1000px;
+    height: 700px;
     position: relative;
 }
 .app__gallery-images_container {
@@ -30,17 +32,62 @@
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    width: 800px;
+    height: 700px;
 }
-.app__gallery-images_container::-webkit-scrollbar {
+.app__gallery-images_container::-webkit-scrollbar{
     display: none;
 }
-
-.app__gallery-images_card{
+.app__gallery-images-card {
     position: relative;
     min-width: 300px;
-    height: 447px;
+    height: 400px;
     margin-right: 2rem;
+
 }
-.gallery__images-icon {
-    position: ;
+.gallery {
+    width: 500px;
+    height: 600px;
+    padding-right: 30px;
+}
+.gallery__image-icon {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.app__gallery-images-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.app__gallery-images_card:hover img {
+    opacity: 0.35;
+}
+.app__gallery-images_card:hover .gallery__image-icon {
+    opacity: 1;
+}
+.app__gallery-images_arrows {
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* position: absolute; */
+    /* bottom: 5%; */
+}
+.gallery__arrow-icon {
+    color: var(--color-golden);
+    font-size: 2rem;
+    margin-top: 300px;
+    cursor: pointer;
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+.gallery__arrow-icon:hover {
+    color: var(--color-white);
 }
