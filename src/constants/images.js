@@ -5,6 +5,8 @@ import gs1 from '../assets/gs1.png';
 import ext from '../assets/exterior.png'
 import int from '../assets/int.jpg'
 import dplan from '../assets/3dplan.png'
+import logo2 from '../assets/logo.jpg'
+import background from '../assets/goodspace.png'
 import wbg from '../assets/wbg.jpeg'
 import gslogo from '../assets/gslogo.png'
 import service from '../assets/service.png'
@@ -37,6 +39,8 @@ export default {
   ext,
   int,
   dplan,
+  logo2,
+  background,
   wbg,
   gslogo,
   service,

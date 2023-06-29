@@ -13,7 +13,8 @@
     align-items: center;
 }
 .app__navbar-logo img {
-    width: 150px;
+    width: 230px;
+    height: 40px;
 }
 
 .app__navbar-links {
